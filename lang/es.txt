@@ -1,0 +1,52 @@
+﻿INDEX
+titulo0=>Idioma
+titulo1-barra=>Inicio
+titulo2-barra=>Servicios
+titulo3-barra=>Contacto
+banner1=>Bienvenido a Grupo Kangy
+banner2=>La unión hace la fuerza y en Grupo Kangy hacemos la diferencia
+banner3=>La unión hace la fuerza y en Grupo Kangy hacemos la diferencia
+titulo1=>Grupo Kangy
+contenido=>Grupo Kangy consolida la operación de 12 empresas en el centro del país e integra estos diferentes negocios facilitando su logística entre si y la distribución de los diferentes productos dentro de la República Mexicana.
+contenido2=>En Grupo Kangy estamos comprometidos a satisfacer las necesidades y expectativas de nuestros clientes, brindando productos y servicios eficientes a costos competitivos, mejorando continuamente nuestros procesos.
+titulo2=>Sobre Grupo Kangy
+titulo2-1=>Misión
+contenido2-1=>A través de la mejora continua y con la participación de nuestro personal, accionistas y proveedores, en Grupo Kangy brindamos productos y servicios, contribuyendo al cuidado de nuestro medio ambiente.
+titulo2-2=>Visión
+contenido2-2=>Ser un grupo reconocido a nivel internacional, promoviendo la innovación y mejora continua para proporcionar productos y servicios de calidad. Comprometidos con el crecimiento integral de todos los involucrados.
+titulo2-3=>Valores
+contenido2-3-1=>Compromiso.
+contenido2-3-2=>Respeto.
+contenido2-3-3=>Ética.
+titulo-final=>Por favor sigue en contacto a través de nuestras redes sociales.
+
+SERVICIOS
+cont1=>Grupo Kangy se especializa en distintas áreas de la industria, en las cuales nuestras distintas empresas afiliadas brindan los mejores servicios
+cont2=>Nuestras empresas producen, procesan, distribuyen y comercializan una amplia gama de artículos que brindan soluciones a diferentes mercados; guiados siempre por la mejora continúa. En grupo Kangy buscamos cubrir los diferentes requerimientos de nuestros clientes y también la de nuestros colaboradores permintiéndonos mejorar continuamente su calidad de vida.
+categoria1=>Metal - Mecánico
+empresa1-1=>OYM es una empresa especializada en la fabricación de válvulas de bola y válvulas macho en Acero al carbón y Acero Inoxidable bajo las más estrictas normas nacionales e internacionales.
+empresa1-2=>Es una empresa especializada en la fundición de acero.
+empresa1-3=>Es una empresa especializada en la fabricación de moldes de chocolate y herramientas industriales.
+categoria2=>Plásticos
+empresa2-1=>Inyección de plasticos para el hogar.
+categoria3=>Recicladoras
+empresa3-1=>Productos reciclados de PP y PET.
+categoria4=>Comercializadoras
+empresa4-1=>Comercialización y distribución de productos para el hogar.
+empresa4-2=>Prodcutos y servicios agricolas.
+empresa4-3=>Comercialización y distribución de productos quimico-farmaceuticos.
+categoria5=>Educación
+empresa5-1=>Brinda educación en preescolar, primaria y secundaria.
+bannerrojo=>Nos gustaría ayudarlo y contactarnos con usted
+botonbanner=>CONTÁCTENOS
+
+CONTACTO
+bannercont1=>Déjenos un mensaje, su opinión es importante para nosotros
+tituloform=>Déjenos un mensaje.
+campo1form=>Nombre completo
+campo2form=>Correo
+campo3form=>Asunto
+campo4form=>Mensaje
+boton11=>ENVIAR
+tituloder=>Mantángase en contacto
+contenidoder=>Con gusto atenderemos sus dudas o sugerencias en cualquiera de nuestras múltiples opciones de contacto.
