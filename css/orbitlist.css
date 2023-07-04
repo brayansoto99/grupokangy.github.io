@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/02/2019, 02:39:28 PM
+    Author     : Mariana Kira Escobar
+*/
+
+/* Orbitlist core */
+ul.orbit.orbitlistJS {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* Orbitlist satellites */
+ul.orbit.orbitlistJS li {
+    position: absolute;
+    cursor: pointer;
+}
