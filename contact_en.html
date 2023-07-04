@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-lang="titulo3-barra">Contact</title>
+    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/03.png">
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <video id="videof" src="img/fondo.mp4" autoplay="true" muted="true" loop="true"></video>
+
+  <body>
+    
+    <!-- Fixed navbar -->
+    
+    
+    <nav class="navbar navbar-default navbar-fixed-top probootstrap-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" title="Grupo Kangy">Kangy Group</a>
+        </div>
+
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle" data-lang="titulo0">Language</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="contact.html">Spanish</a></li>
+                  </ul>
+              </li>
+            <li><a href="index_en.html" data-lang="titulo1-barra">Home</a></li>
+            <li class="dropdown">
+              <!--<a href="#" data-toggle="dropdown" class="dropdown-toggle">Empresas Afiliadas</a>
+              <ul class="dropdown-menu">
+                <li><a href="about.html">MINOX</a></li>
+                <li><a href="portfolio.html">OYM</a></li>
+                <li><a href="portfolio-single.html">PLASIN</a></li>
+                <li><a href="portfolio-single.html">MONTREAL</a></li>
+                <li><a href="portfolio-single.html">BIOQUIFA</a></li>
+                <li><a href="portfolio-single.html">KANGY</a></li>
+                <li><a href="portfolio-single.html">CASA MADROÑO</a></li>
+                <li><a href="portfolio-single.html">GLOPLAS</a></li>
+                <li><a href="portfolio-single.html">FER PLASTIC´S</a></li>
+                <li class="dropdown-submenu dropdown">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>REPLAS</span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">REPLAS San Juan del Río</a></li>
+                    <li><a href="#">REPLAS San Luis Potosí</a></li>
+                  </ul>
+                </li>
+              </ul> -->
+            </li>
+            <li><a href="services_en.html" data-lang="titulo2-barra">Services</a></li>
+            <li><a href="contact_en.html" data-lang="titulo3-barra">Contact</a></li>
+            
+           <!-- <li class="probootstra-cta-button"><a href="#" class="btn" data-toggle="modal" data-target="#loginModal">Log in</a></li>-->
+            <!--<li class="probootstra-cta-button last"><a href="#" class="btn btn-ghost" data-toggle="modal" data-target="#signupModal">Sign up</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="flexslider">
+      <ul class="slides">
+        
+        <li style="background-image: url(img/contacto2.png)" class="overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <div class="probootstrap-slider-text text-center">
+                  <h1 class="probootstrap-heading stroke" data-lang="botonbanner">Contact Us</h1>
+                  <p style = "color: rgb(255, 255, 255); font-family:Verdana, Geneva, Tahoma, sans-serif"  class="li" data-lang="bannercont1">Leave us a message, your opinion is important to us</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="probootstrap-section probootstrap-bg-white">
+      <div class="container">
+        <div class="row">
+
+         <div style="background-color: blue; border: 10px solid white;" class="col-md-5 probootstrap-animate" data-animate-effect="fadeIn">
+            <h2 data-lang="tituloform">Leave us a message.</h2>
+            <form action="#" method="post" class="probootstrap-form">
+              <div class="form-group">
+                <label for="name" data-lang="campo1form">Full name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email" data-lang="campo2form">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="subject" data-lang="campo3form">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="message" data-lang="campo4form">Message</label>
+                <textarea cols="30" rows="10" class="form-control" id="message" name="message" required></textarea>
+              </div>
+      
+
+            <!------------------------------inicio de recaptcha----------------------->
+            <div class="form-group">
+             <div id="captcha" class="g-recaptcha"  data-callback="onReCaptcha"  name="name" data-sitekey="6LfoNpwhAAAAAEthiOLLN_4BYuzDD-LTGeXXjy34" required data-error="por favor comprueba no ser un robot"></div>
+            <div class="help-block with-errors"></div>
+          </div>
+    
+
+          <!---------------fin de recaptcha-->
+      
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-lg" id="enviarr" name="submit" value="SEND" data-lang="boton11" disabled>
+              </div>
+            </form>
+          </div>
+
+
+
+          <script>
+            var onReCaptcha = function() {
+              if (grecaptcha.getResponse().length !== 0) {
+                var Submit = document.getElementById("enviarr");
+                Submit.disabled = false;
+              }
+            };
+            </script>
+
+
+      
+
+
+
+       <!-- ------------------------------>
+          <div class="col-md-6 col-md-push-1 probootstrap-animate" data-animate-effect="fadeIn">
+            <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" class="stroke" data-lang="tituloder">Please keep in contact</h2>
+            <p style = "color: rgb(255, 255, 255); font-family:Verdana, Geneva, Tahoma, sans-serif"  class=" lii" data-lang="contenidoder">We will gladly answer your questions or suggestions in any of our multiple contact options.</p>
+            
+            <h4  style = "color: blanchedalmond;" class="lii" >Mexico</h4>
+            <ul class="probootstrap-contact-info">
+              <li class="li"><i class="icon-pin"></i> <span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Mexico</span></li>
+              
+             <!-- <li><i class="icon-profile-male"></i><span>Abigail Reyes Bravo</span></li>-->
+              <li class="li"><i class="icon-phone"></i><span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Office:123-456-789</span></li>
+              <li class="li"><i class="icon-old-mobile"></i><span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Cellphone: 123-456-789</span></li>
+              <li class="li"><i class="icon-email"></i><span style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">mail.com.mx</span></li>
+            </ul>
+           <iframe src="" width="100%" height="450" frameborder="0" class="responsive" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>   
+  
+    
+    <footer class="probootstrap-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="probootstrap-footer-widget">
+              <h3 data-lang="titulo-final">Please keep in contact through our social networks.</h3>
+              <!--<p>Por favor sigue en contacto en nuestras redes sociales.</p>-->
+              <br />
+              <ul class="probootstrap-footer-social">
+                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                <li><a href="#"><i class="icon-facebook"></i></a></li>
+                <li><a href="#"><i class="icon-github"></i></a></li>
+                <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                <li><a href="#"><i class="icon-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <!--<div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="probootstrap-footer-widget">
+                  <h3>Links</h3>
+                  <ul>
+                    <li><a href="#">Knowledge Base</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Terms of services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="probootstrap-footer-widget">
+                  <h3>Links</h3>
+                  <ul>
+                    <li><a href="#">Knowledge Base</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Terms of services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="probootstrap-footer-widget">
+                  <h3>Links</h3>
+                  <ul>
+                    <li><a href="#">Knowledge Base</a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Terms of services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          
+          
+        </div>
+        <!-- END row -->
+        <!--<div class="row">
+          <div class="col-md-12 copyright">
+            <p><small>&copy; 2017 <a href="https://uicookies.com/">uiCookies:Stack</a>. All Rights Reserved. <br> Designed &amp; Developed with <i class="icon icon-heart"></i> by <a href="https://uicookies.com/">uicookies.com</a></small></p>
+          </div>
+        </div>-->
+      </div>
+    </footer>
+    
+  
+    <!-- Modal login -->
+    <div class="modal fadeInUp probootstrap-animated" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="vertical-alignment-helper">
+        <div class="modal-dialog modal-md vertical-align-center">
+          <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-cross"></i></button>
+            <div class="probootstrap-modal-flex">
+              <div class="probootstrap-modal-figure" style="background-image: url(img/modal_bg.jpg);"></div>
+              <div class="probootstrap-modal-content">
+                <form action="#" class="probootstrap-form">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email">
+                  </div> 
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password">
+                  </div> 
+                  <div class="form-group clearfix mb40">
+                    <label for="remember" class="probootstrap-remember"><input type="checkbox" id="remember"> Remember Me</label>
+                    <a href="#" class="probootstrap-forgot">Forgot Password?</a>
+                  </div>
+                  <div class="form-group text-left">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <input type="submit" class="btn btn-primary btn-block" value="Sign In">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group probootstrap-or">
+                    <span><em>or</em></span>
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <button class="btn btn-primary btn-ghost btn-block btn-connect-facebook"><span>connect with</span> Facebook</button>
+                        <button class="btn btn-primary btn-ghost btn-block btn-connect-google"><span>connect with</span> Google</button>
+                        <button class="btn btn-primary btn-ghost btn-block btn-connect-twitter"><span>connect with</span> Twitter</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END modal login -->
+    
+    <!-- Modal signup -->
+    <div class="modal fadeInUp probootstrap-animated" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+      <div class="vertical-alignment-helper">
+        <div class="modal-dialog modal-md vertical-align-center">
+          <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-cross"></i></button>
+            <div class="probootstrap-modal-flex">
+              <div class="probootstrap-modal-figure" style="background-image: url(img/modal_bg.jpg);"></div>
+              <div class="probootstrap-modal-content">
+                <form action="#" class="probootstrap-form">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email">
+                  </div> 
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password">
+                  </div> 
+                  <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Re-type Password">
+                  </div> 
+                  <div class="form-group clearfix mb40">
+                    <label for="remember" class="probootstrap-remember"><input type="checkbox" id="remember"> Remember Me</label>
+                    <a href="#" class="probootstrap-forgot">Forgot Password?</a>
+                  </div>
+                  <div class="form-group text-left">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <input type="submit" class="btn btn-primary btn-block" value="Sign Up">
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="form-group probootstrap-or">
+                    <span><em>or</em></span>
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <button class="btn btn-primary btn-ghost btn-block btn-connect-facebook"><span>connect with</span> Facebook</button>
+                        <button class="btn btn-primary btn-ghost btn-block btn-connect-google"><span>connect with</span> Google</button>
+                        <button class="btn btn-primary btn-ghost btn-block btn-connect-twitter"><span>connect with</span> Twitter</button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END modal signup -->
+
+    <script src="js/scripts.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+  </body>
+</html>
